@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAPTHAGIRI NPS UNIVERSITY — Smart Campus Platform</title>
+  <meta name="description" content="Official Smart Campus Platform for Sapthagiri NPS University, Bengaluru. Centralized portal for Student, Staff, Tech Team, and Administration.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cyan: '#06b6d4',
+              blue: '#3b82f6',
+              dark: '#0b0f19'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Three.js 3D Graphics Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Custom Dark Mode & Space Cursor CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#0b0f19] text-gray-100 min-h-screen selection:bg-cyan-500 selection:text-black">
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Space Starfield Particle Canvas -->
+  <canvas id="space-canvas"></canvas>
+
+  <!-- Interactive Space Cursor Light Follower -->
+  <div id="cursor-light"></div>
+  <div id="cursor-dot"></div>
+
+  <!-- Main React/JS App Mounting Root -->
+  <div id="app">
+    <div class="min-h-screen flex items-center justify-center p-8 text-center text-cyan-400 font-bold">
+      <div class="space-y-4">
+        <div class="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+        <p class="text-sm tracking-wider uppercase">Loading Sapthagiri NPS University Platform...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Environment Script Configuration Placeholder -->
+  <script>
+    window.ENV = {
+      GOOGLE_MAPS_API_KEY: "" // Set your API key here or leave blank for automatic 3D Fallback Map
+    };
+  </script>
+
+  <!-- Main Application Script Bundle (Compatible with file://, http://, and GitHub Pages) -->
+  <script src="js/bundle.js"></script>
+</body>
+</html>

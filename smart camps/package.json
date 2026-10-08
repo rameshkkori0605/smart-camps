@@ -1,0 +1,19 @@
+{
+  "name": "sapthagiri-smart-campus",
+  "version": "1.0.0",
+  "description": "Official Smart Campus Platform for Sapthagiri NPS University, Bengaluru",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static assets ready for Vercel deployment'"
+  },
+  "keywords": [
+    "smart-campus",
+    "sapthagiri-nps-university",
+    "education-portal",
+    "fees-management",
+    "admissions"
+  ],
+  "author": "Sapthagiri NPS University Technical Team",
+  "license": "UNLICENSED"
+}
